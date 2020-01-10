@@ -25,7 +25,7 @@ const Header = props => {
 
   return (
     <div>
-      <Navbar expand="md" className={headerStyles.headermain} fixed="top">
+      <Navbar expand="md" className={headerStyles.headermain} fixed="top" color="faded" light>
         <Link to="/">
           <NavbarBrand>
             <img src={Logo} className={headerStyles.image} />
@@ -68,24 +68,24 @@ const Header = props => {
                 <DropdownItem className={headerStyles.options}>
                   {" "}
                   <Link
-                    to="./artificial-inteligence"
+                    to="artificial-intelligence"
                     className={headerStyles.pages}
                   >
                     Artificial inteligence
                   </Link>{" "}
                 </DropdownItem>
                 <DropdownItem className={headerStyles.options}>
-                  <Link to="./cloud-native" className={headerStyles.pages}>
+                  <Link to="cloud-native" className={headerStyles.pages}>
                     Cloud Native and Mobile Web
                   </Link>{" "}
                 </DropdownItem>
                 <DropdownItem className={headerStyles.options}>
-                  <Link to="./block-chain" className={headerStyles.pages}>
+                  <Link to="block-chain" className={headerStyles.pages}>
                     Blockchain
                   </Link>{" "}
                 </DropdownItem>
                 <DropdownItem className={headerStyles.options}>
-                  <Link to="./iot" className={headerStyles.pages}>
+                  <Link to="iot" className={headerStyles.pages}>
                     Internet Of Things
                   </Link>{" "}
                 </DropdownItem>

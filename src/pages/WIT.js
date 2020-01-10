@@ -78,7 +78,7 @@ const WIT = () => {
           textAlign: "center",
           letterSpacing: "15px",
           color: "#3f4247",
-          marginTop: "-30px",
+          marginTop: "-17px",
           fontWeight: "bold",
           fontFamily: "sans-serif",
         }}
